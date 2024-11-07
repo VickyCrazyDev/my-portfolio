@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const ContactSection = styled.section`
@@ -8,45 +7,6 @@ const ContactSection = styled.section`
   background: #f2f1ed;
   color: #000;
   text-align: center;
-`;
-
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  max-width: 500px;
-  margin: 0 auto;
-`;
-
-const Input = styled.input`
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 5px;
-  border: 1px solid #000;
-`;
-
-const TextArea = styled.textarea`
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 5px;
-  border: 1px solid #000;
-  resize: none;
-  height: 100px;
-`;
-
-const SubmitButton = styled(motion.button)`
-  padding: 10px;
-  font-size: 1rem;
-  background: #000;
-  color: #f2f1ed;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  &:hover {
-    background: #f2f1ed;
-    color: #000;
-    transition: 0.3s ease;
-  }
 `;
 
 const SocialLinks = styled.div`
